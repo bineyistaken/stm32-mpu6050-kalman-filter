@@ -1,3 +1,10 @@
+## 📊 Kalman Filter Performance (Before vs. After)
+
+| Raw Accelerometer (Before) | 1D Kalman Filter (After) |
+| :---: | :---: |
+| ![Raw Output](raw_noise.png) | ![Filtered Output](kalman_filtered.png) |
+| *High-frequency jitter & vibration noise* | *Noise eliminated, deterministic state estimation* |
+
 # 1D Kalman Filter & IMU Attitude Estimation on STM32
 
 A bare-metal attitude estimation engine running on an **STM32 (ARM Cortex-M)** microcontroller interfaced with an **MPU6050 6-DOF IMU** over hardware I2C at 400 kHz.
